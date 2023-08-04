@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="portfolio1.css">
+</head>
+<title>MyPortfolio</title>
+
+<body>
+
+
+  <div class="bg-image"><img src="background.jpg" alt="backgrouns"></div>
+
+
+
+  <div class="bg-text">
+
+    <nav class="navbar">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+
+      </ul>
+
+    </nav>
+
+
+
+    <img src="Profilepic.jpg" height="200" id="profile-image">
+    <h1>Hemangshu Dey</h1>
+    <p>Computer Programmer | ML Enthusiast</p>
+  </div>
+
+
+  <div class="bg-text1" id="about">
+
+    <h1 id="about1">About</h1>
+    <p>Hii!! I am Hemangshu.I am a BCA Graduate currently pursuing MCA from Christ University.I have a passion for
+      coding and data.I like to find patterns in datasets and make some valueable predictions with it!!</p>
+  </div>
+
+  <div class="bg-text2" id="education">
+
+    <h1>Education</h1>
+    <ul>
+      <li>10+2 FROM ASSENBLY OF GOD CHURCH SCHOOL</li>
+      <li>BACHELOR OF COMPUTER APPLICATION FROM ASANSOL ENGINEERING COLLEGE</li>
+      <li>CURENTLY PURSUING MASTER OF COMPUTER APPLICATION FROM CHRIST(DEEMED TO BE UNIVERSITY)</li>
+
+    </ul>
+  </div>
+
+
+  <div class="bg-text3" id="projects">
+
+    <h1>Projects</h1>
+    <ul>
+      <li>HEART DISEASE PREDICTION MODEL</li>
+      <li>BULLDOZER PRICE PREDICTION MODEL</li>
+
+
+    </ul>
+
+  </div>
+
+  <div class="bg-text4" id="contacts">
+
+    <h1>Contacts</h1>
+
+    <div class="frame" id="contact">
+      <div class="container">
+
+        <form onsubmit="return false;">
+          <input type="text" id="name" placeholder="Your Name" required>
+          <input type="email" id="email" placeholder="Your Email" required>
+          <textarea id="message" placeholder="Your Message" required></textarea>
+          <button onclick="sendMessage()">Send Message</button>
+        </form>
+      </div>
+    </div>
+    <ul>
+
+
+
+      <div class="logos">
+
+        <a href="https://www.linkedin.com/in/hemangshu-dey-2a2221276/" target="_blank"><ion-icon
+            name="logo-linkedin"></ion-icon></a>
+        <a href="https://github.com/Hemangshu1904" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+        <a href="https://www.facebook.com/hemangshu.dey" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+        <a href="https://www.instagram.com/hemangshudey/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+
+
+      </div>
+
+
+  </div>
+  <script src="script.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
